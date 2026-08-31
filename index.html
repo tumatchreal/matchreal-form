@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Match Real | Lista de Espera VIP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            background-color: #fcfcfc;
+            color: #000000;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 500px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: -1.5px;
+            margin-bottom: 30px;
+            line-height: 1.1;
+            text-align: left;
+        }
+
+        .section-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #000000;
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 6px;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #333333;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .radio-label {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            cursor: pointer;
+            border: 2px solid #000000;
+            padding: 12px;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .radio-label:hover {
+            background-color: #f0f0f0;
+        }
+
+        .radio-label input[type="radio"] {
+            margin-right: 12px;
+            accent-color: #000000;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: opacity 0.2s ease;
+        }
+
+        button[type="submit"]:hover {
+            opacity: 0.9;
+        }
+
+        .privacy-note {
+            font-size: 11px;
+            line-height: 1.5;
+            margin-top: 15px;
+            font-weight: 700;
+            text-transform: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form-container">
+
+    <h1>
+        Match Real<br>
+        Lista de Espera VIP
+    </h1>
+
+    <form
+        action="https://formsubmit.co/tumatchreal@gmail.com"
+        method="POST"
+    >
+
+        <!-- CONFIGURACIÓN FORMULARIO -->
+
+        <input
+            type="hidden"
+            name="_subject"
+            value="Nueva inscripción — Match Real"
+        >
+
+        <input
+            type="hidden"
+            name="_template"
+            value="table"
+        >
+
+        <!-- RESPUESTA AUTOMÁTICA AL PARTICIPANTE -->
+
+        <input
+            type="hidden"
+            name="_autoresponse"
+            value="Hola. Gracias por inscribirte en Match Real — El algoritmo eres tú.
+
+Tu inscripción para el Speed Dating del jueves 1 de octubre de 2026 ha sido recibida.
+
+El valor de participación es de $15.000 por persona.
+
+Para confirmar tu cupo, realiza una transferencia por $15.000 a los siguientes datos:
+
+Banco: BancoEstado
+Tipo de cuenta: Cuenta Corriente
+Número de cuenta: 29800023481
+Titular: Victor Torres
+RUT: 9.990.077-6
+Correo: tumatchreal@gmail.com
+
+Una vez realizada la transferencia, conserva tu comprobante de pago. Te enviaremos posteriormente la información correspondiente al evento.
+
+La entrada no incluye tragos ni comida.
+
+Si necesitas cancelar tu participación, puedes hacerlo hasta una semana antes del evento. En ese caso recibirás una devolución equivalente al 70% del valor pagado. El 30% restante corresponde a gastos de producción ya realizados.
+
+Gracias por ser parte de Match Real.
+El algoritmo eres tú."
+        >
+
+        <!-- SECCIÓN 1: DATOS -->
+
+        <div class="section-title">
+            1. Tus Datos
+        </div>
+
+        <div class="form-group">
+            <label for="nombre">
+                Nombre Completo
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                placeholder="EJ: JUAN PÉREZ"
+                autocomplete="name"
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="whatsapp">
+                WhatsApp
+            </label>
+
+            <input
+                type="tel"
+                id="whatsapp"
+                name="whatsapp"
+                required
+                placeholder="EJ: +56912345678"
+                autocomplete="tel"
+            >
+        </div>
+
+        <!-- CORREO DEL PARTICIPANTE -->
+
+        <div class="form-group">
+            <label for="email">
+                Correo Electrónico
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="EJ: JUAN@CORREO.COM"
+                autocomplete="email"
+            >
+        </div>
+
+        <!-- SECCIÓN 2: GÉNERO -->
+
+        <div class="section-title">
+            2. Género
+        </div>
+
+        <div class="form-group">
+            <div class="radio-group">
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="genero"
+                        value="hombre"
+                        required
+                    >
+                    Hombre
+                </label>
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="genero"
+                        value="mujer"
+                    >
+                    Mujer
+                </label>
+
+            </div>
+        </div>
+
+        <!-- SECCIÓN 3: EDAD -->
+
+        <div class="section-title">
+            3. Rango de Edad
+        </div>
+
+        <div class="form-group">
+            <div class="radio-group">
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="edad"
+                        value="30-39"
+                        required
+                    >
+                    30 a 39 años
+                </label>
+
+                <label class="radio-label">
+                    <input
+                        type="radio"
+                        name="edad"
+                        value="40-49"
+                    >
+                    40 a 49 años
+                </label>
+
+            </div>
+        </div>
+
+        <!-- SECCIÓN 4: INTERESES -->
+
+        <div class="section-title">
+            4. Intereses principales
+        </div>
+
+        <div class="form-group">
+
+            <label for="intereses">
+                ¿Qué buscas en tu Match?
+            </label>
+
+            <select
+                id="intereses"
+                name="intereses"
+                required
+            >
+
+                <option value="" disabled selected>
+                    SELECCIONA UNA OPCIÓN
+                </option>
+
+                <option value="relacion-estable">
+                    UNA RELACIÓN ESTABLE
+                </option>
+
+                <option value="conocer-gente">
+                    CONOCER GENTE NUEVA Y VER QUÉ PASA
+                </option>
+
+                <option value="salir-divertirse">
+                    SALIR A DIVERTIRSE Y PASARLO BIEN
+                </option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="comuna">
+                ¿Qué sector de Santiago prefieres?
+            </label>
+
+            <select
+                id="comuna"
+                name="comuna"
+                required
+            >
+
+                <option value="" disabled selected>
+                    SELECCIONA TU COMUNA
+                </option>
+
+                <option value="providencia">
+                    PROVIDENCIA
+                </option>
+
+                <option value="nunoa">
+                    ÑUÑOA
+                </option>
+
+                <option value="las-condes-vitacura">
+                    LAS CONDES / VITACURA
+                </option>
+
+                <option value="santiago-centro">
+                    SANTIAGO CENTRO
+                </option>
+
+            </select>
+
+        </div>
+
+        <button type="submit">
+            Quiero mi acceso prioritario
+        </button>
+
+        <div class="privacy-note">
+            Al enviar este formulario, aceptas que Match Real pueda
+            contactarte respecto de la experiencia y tu inscripción.
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
